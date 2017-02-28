@@ -63,29 +63,28 @@ See 'README.txt' for more details.
 
 - ACTIVITY Activity identifier, sting associated to the following values during the test
 
-    WALKING (with value 1): subject was walking
-    WALKING_UPSTAIRS (with value 2): subject was walking up a staircase
-    WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase
-    SITTING (with value 4): subject was sitting
-    STANDING (with value 5): subject was standing
-    LAYING (with value 6): subject was laying down
+   * WALKING (with value 1): subject was walking
+   * WALKING_UPSTAIRS (with value 2): subject was walking up a staircase
+   * WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase
+   * SITTING (with value 4): subject was sitting
+   * STANDING (with value 5): subject was standing
+   * LAYING (with value 6): subject was laying down
 
 Average of each variable for each activity and each subject. The average of each variable of the source data is taken which in its contents had the following string mean () and std ().
-
 It is grouped by each subject and activity. The variables used are as follows:
 
-TimeBodyAccelerometer_mean_X
-TimeBodyAccelerometer_mean_Y
-TimeBodyAccelerometer_mean_Z
-TimeBodyAccelerometer_std_X
-TimeBodyAccelerometer_std_Y
-TimeBodyAccelerometer_std_Z
-TimeGravityAccelerometer_mean_X
-TimeGravityAccelerometer_mean_Y
-TimeGravityAccelerometer_mean_Z
-TimeGravityAccelerometer_std_X
-TimeGravityAccelerometer_std_Y
-TimeGravityAccelerometer_std_Z
+- TimeBodyAccelerometer_mean_X
+- TimeBodyAccelerometer_mean_Y
+- TimeBodyAccelerometer_mean_Z
+- TimeBodyAccelerometer_std_X
+- TimeBodyAccelerometer_std_Y
+- TimeBodyAccelerometer_std_Z
+- TimeGravityAccelerometer_mean_X
+- TimeGravityAccelerometer_mean_Y
+- TimeGravityAccelerometer_mean_Z
+- TimeGravityAccelerometer_std_X
+- TimeGravityAccelerometer_std_Y
+- TimeGravityAccelerometer_std_Z
 TimeBodyAccelerometerJerk_mean_X
 TimeBodyAccelerometerJerk_mean_Y
 TimeBodyAccelerometerJerk_mean_Z
@@ -139,7 +138,7 @@ FrequencyBodyAccelerometerJerkMagnitude_std
 FrequencyBodyGyroscopeMagnitude_mean
 FrequencyBodyGyroscopeMagnitude_std
 FrequencyBodyGyroscopeJerkMagnitude_mean
-FrequencyBodyGyroscopeJerkMagnitude_std subject activity
+FrequencyBodyGyroscopeJerkMagnitude_std
 
 
 

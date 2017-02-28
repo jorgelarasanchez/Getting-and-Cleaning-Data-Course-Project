@@ -63,12 +63,12 @@ See 'README.txt' for more details.
 
 - ACTIVITY Activity identifier, sting associated to the following values during the test
 
-   * WALKING (with value 1): subject was walking
-   * WALKING_UPSTAIRS (with value 2): subject was walking up a staircase
-   * WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase
-   * SITTING (with value 4): subject was sitting
-   * STANDING (with value 5): subject was standing
-   * LAYING (with value 6): subject was laying down
+   - WALKING (with value 1): subject was walking
+   - WALKING_UPSTAIRS (with value 2): subject was walking up a staircase
+   - WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase
+   - SITTING (with value 4): subject was sitting
+   - STANDING (with value 5): subject was standing
+   - LAYING (with value 6): subject was laying down
 
 Average of each variable for each activity and each subject. The average of each variable of the source data is taken which in its contents had the following string mean () and std ().
 It is grouped by each subject and activity. The variables used are as follows:
@@ -85,60 +85,60 @@ It is grouped by each subject and activity. The variables used are as follows:
 - TimeGravityAccelerometer_std_X
 - TimeGravityAccelerometer_std_Y
 - TimeGravityAccelerometer_std_Z
-TimeBodyAccelerometerJerk_mean_X
-TimeBodyAccelerometerJerk_mean_Y
-TimeBodyAccelerometerJerk_mean_Z
-TimeBodyAccelerometerJerk_std_X
-TimeBodyAccelerometerJerk_std_Y
-TimeBodyAccelerometerJerk_std_Z
-TimeBodyGyroscope_mean_X
-TimeBodyGyroscope_mean_Y
-TimeBodyGyroscope_mean_Z
-TimeBodyGyroscope_std_X
-TimeBodyGyroscope_std_Y
-TimeBodyGyroscope_std_Z
-TimeBodyGyroscopeJerk_mean_X
-TimeBodyGyroscopeJerk_mean_Y
-TimeBodyGyroscopeJerk_mean_Z
-TimeBodyGyroscopeJerk_std_X
-TimeBodyGyroscopeJerk_std_Y
-TimeBodyGyroscopeJerk_std_Z
-TimeBodyAccelerometerMagnitude_mean
-TimeBodyAccelerometerMagnitude_std
-TimeGravityAccelerometerMagnitude_mean
-TimeGravityAccelerometerMagnitude_std
-TimeBodyAccelerometerJerkMagnitude_mean
-TimeBodyAccelerometerJerkMagnitude_std
-TimeBodyGyroscopeMagnitude_mean
-TimeBodyGyroscopeMagnitude_std
-TimeBodyGyroscopeJerkMagnitude_mean
-TimeBodyGyroscopeJerkMagnitude_std
-FrequencyBodyAccelerometer_mean_X
-FrequencyBodyAccelerometer_mean_Y
-FrequencyBodyAccelerometer_mean_Z
-FrequencyBodyAccelerometer_std_X
-FrequencyBodyAccelerometer_std_Y
-FrequencyBodyAccelerometer_std_Z
-FrequencyBodyAccelerometerJerk_mean_X
-FrequencyBodyAccelerometerJerk_mean_Y
-FrequencyBodyAccelerometerJerk_mean_Z
-FrequencyBodyAccelerometerJerk_std_X
-FrequencyBodyAccelerometerJerk_std_Y
-FrequencyBodyAccelerometerJerk_std_Z
-FrequencyBodyGyroscope_mean_X
-FrequencyBodyGyroscope_mean_Y
-FrequencyBodyGyroscope_mean_Z
-FrequencyBodyGyroscope_std_X
-FrequencyBodyGyroscope_std_Y
-FrequencyBodyGyroscope_std_Z
-FrequencyBodyAccelerometerMagnitude_mean
-FrequencyBodyAccelerometerMagnitude_std
-FrequencyBodyAccelerometerJerkMagnitude_mean
-FrequencyBodyAccelerometerJerkMagnitude_std
-FrequencyBodyGyroscopeMagnitude_mean
-FrequencyBodyGyroscopeMagnitude_std
-FrequencyBodyGyroscopeJerkMagnitude_mean
-FrequencyBodyGyroscopeJerkMagnitude_std
+- TimeBodyAccelerometerJerk_mean_X
+- TimeBodyAccelerometerJerk_mean_Y
+- TimeBodyAccelerometerJerk_mean_Z
+- TimeBodyAccelerometerJerk_std_X
+- TimeBodyAccelerometerJerk_std_Y
+- TimeBodyAccelerometerJerk_std_Z
+- TimeBodyGyroscope_mean_X
+- TimeBodyGyroscope_mean_Y
+- TimeBodyGyroscope_mean_Z
+- TimeBodyGyroscope_std_X
+- TimeBodyGyroscope_std_Y
+- TimeBodyGyroscope_std_Z
+- TimeBodyGyroscopeJerk_mean_X
+- TimeBodyGyroscopeJerk_mean_Y
+- TimeBodyGyroscopeJerk_mean_Z
+- TimeBodyGyroscopeJerk_std_X
+- TimeBodyGyroscopeJerk_std_Y
+- TimeBodyGyroscopeJerk_std_Z
+- TimeBodyAccelerometerMagnitude_mean
+- TimeBodyAccelerometerMagnitude_std
+- TimeGravityAccelerometerMagnitude_mean
+- TimeGravityAccelerometerMagnitude_std
+- TimeBodyAccelerometerJerkMagnitude_mean
+- TimeBodyAccelerometerJerkMagnitude_std
+- TimeBodyGyroscopeMagnitude_mean
+- TimeBodyGyroscopeMagnitude_std
+- TimeBodyGyroscopeJerkMagnitude_mean
+- TimeBodyGyroscopeJerkMagnitude_std
+- FrequencyBodyAccelerometer_mean_X
+- FrequencyBodyAccelerometer_mean_Y
+- FrequencyBodyAccelerometer_mean_Z
+- FrequencyBodyAccelerometer_std_X
+- FrequencyBodyAccelerometer_std_Y
+- FrequencyBodyAccelerometer_std_Z
+- FrequencyBodyAccelerometerJerk_mean_X
+- FrequencyBodyAccelerometerJerk_mean_Y
+- FrequencyBodyAccelerometerJerk_mean_Z
+- FrequencyBodyAccelerometerJerk_std_X
+- FrequencyBodyAccelerometerJerk_std_Y
+- FrequencyBodyAccelerometerJerk_std_Z
+- FrequencyBodyGyroscope_mean_X
+- FrequencyBodyGyroscope_mean_Y
+- FrequencyBodyGyroscope_mean_Z
+- FrequencyBodyGyroscope_std_X
+- FrequencyBodyGyroscope_std_Y
+- FrequencyBodyGyroscope_std_Z
+- FrequencyBodyAccelerometerMagnitude_mean
+- FrequencyBodyAccelerometerMagnitude_std
+- FrequencyBodyAccelerometerJerkMagnitude_mean
+- FrequencyBodyAccelerometerJerkMagnitude_std
+- FrequencyBodyGyroscopeMagnitude_mean
+- FrequencyBodyGyroscopeMagnitude_std
+- FrequencyBodyGyroscopeJerkMagnitude_mean
+ FrequencyBodyGyroscopeJerkMagnitude_std
 
 
 

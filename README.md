@@ -23,7 +23,7 @@ This R script performs the requested step in the fourth week of the course exam.
 
 *tidy_data_set.txt*
 
-File containing data set ordered with the average of each variable for each activity and each subject. Obtained after executing script R "run_analysis.R"
+File containing data set ordered with the average of each variable for each activity and each subject. Obtained after executing script R *run_analysis.R*
 
 ## STEPS TO FOLLOW TO RUN SCRIPT R
 

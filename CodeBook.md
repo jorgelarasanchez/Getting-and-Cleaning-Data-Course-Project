@@ -143,7 +143,7 @@ It is grouped by each subject and activity. The variables used are as follows:
 - FrequencyBodyGyroscopeMagnitude_mean
 - FrequencyBodyGyroscopeMagnitude_std
 - FrequencyBodyGyroscopeJerkMagnitude_mean
- FrequencyBodyGyroscopeJerkMagnitude_std
+- FrequencyBodyGyroscopeJerkMagnitude_std
 
 
 

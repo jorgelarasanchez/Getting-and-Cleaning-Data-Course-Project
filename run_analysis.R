@@ -130,9 +130,10 @@ names(dataset_mean_sd) <- gsub("-", "_", names(dataset_mean_sd))
 # Group the data by subject and activity and calculate the mean for all features using a Dplyr function. 
 tidy_data_set <- dataset_mean_sd %>% 
                     group_by(subject, activity) %>%
-                        summarise_each(funs(mean))
+                         summarise_each(funs(mean))
 
 #View(tidy_data_set)
 
 # Create tidy data set file
-write.table(tidymean, file="tidy_data_set.txt", row.names=FALSE, col.names=TRUE, sep="\t")
+write.table(tidy_data_set, file="tidy_data_set.txt", row.names=FALSE, col.names=TRUE, sep="\t")
+

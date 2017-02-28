@@ -63,17 +63,17 @@ See 'README.txt' for more details.
 
 - ACTIVITY Activity identifier, sting associated to the following values during the test
 
-   - WALKING: with value 1
+   - WALKING: with value 1.
    
-   - WALKING_UPSTAIRS: with value 2
+   - WALKING_UPSTAIRS: with value 2.
    
-   - WALKING_DOWNSTAIRS: with value 3
+   - WALKING_DOWNSTAIRS: with value 3.
    
-   - SITTING: with value 4
+   - SITTING: with value 4.
    
-   - STANDING: with value 5
+   - STANDING: with value 5.
    
-   - LAYING: with value 6
+   - LAYING: with value 6.
 
 Average of each variable for each activity and each subject. The average of each variable of the source data is taken which in its contents had the following string mean () and std ().
 It is grouped by each subject and activity. The variables used are as follows:

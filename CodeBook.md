@@ -3,7 +3,7 @@
 
 Indicates all calculated variables and summaries, together with units, and any other relevant information.
 
-#  DATA SOURCE
+##  DATA SOURCE
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
@@ -13,7 +13,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# Data source information 
+## DATA SOURCE INFORMATION 
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -57,18 +57,22 @@ Notes:
 
 See 'README.txt' for more details. 
 
-# VARIABLES OBTAINED AFTER THE TRANSFORMATION
+## VARIABLES OBTAINED AFTER THE TRANSFORMATION
 
-- SUBJECT Subject identifier, integer, ranges from 1 to 30.
+- *SUBJECT* 
 
-- ACTIVITY Activity identifier, sting associated to the following values during the test.
+Subject identifier, integer, ranges from 1 to 30.
 
-..* WALKING: with value 1.
-..* WALKING_UPSTAIRS: with value 2.
-..* WALKING_DOWNSTAIRS: with value 3.
-..* SITTING: with value 4.
-..* STANDING: with value 5.
-..* LAYING: with value 6.
+- *ACTIVITY* 
+
+Activity identifier, sting associated to the following values during the test.
+
+ *  WALKING: with value 1.
+ *  WALKING_UPSTAIRS: with value 2.
+ *  WALKING_DOWNSTAIRS: with value 3.
+ *  SITTING: with value 4.
+ *  STANDING: with value 5.
+ *  LAYING: with value 6.
 
 Average of each variable for each activity and each subject. The average of each variable of the source data is taken which in its contents had the following string mean() and std().
 It is grouped by each subject and activity. The variables used are as follows:

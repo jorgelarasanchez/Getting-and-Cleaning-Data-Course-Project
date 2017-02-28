@@ -1,10 +1,10 @@
 # GETTING AND CLEANING DATA COURSE PROJECT
 
-# INTRODUCTION
+## INTRODUCTION
 
 This repository contains the necessary files to perform the work associated with the fourth week of the coursera course Getting and Cleaning Data
 
-# FILES 
+## FILES 
 
 CodeBook.md 
 
@@ -30,6 +30,6 @@ tidy_data_set.txt
 
 File containing data set ordered with the average of each variable for each activity and each subject. Obtained after executing script R "run_analysis.R"
 
-# STEPS TO FOLLOW TO RUN SCRIPT R
+## STEPS TO FOLLOW TO RUN SCRIPT R
 
 Run the script in the local folder of your choice. The script will download the source data by creating the "UCI HAR Dataset" folder. Perform the requested steps in the exam and create the requested file "tidy_data_set.txt" in the same folder as the result.
